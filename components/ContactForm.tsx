@@ -73,7 +73,11 @@ export default function ContactForm() {
   };
 
   if (success) {
-    return <Alert severity="success">Thank you for your message!</Alert>;
+    return (
+      <Alert severity="success">
+        Thank you for your message! We'll reach out to you.
+      </Alert>
+    );
   }
 
   return (
