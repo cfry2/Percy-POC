@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Container maxWidth="sm" sx={{ mt: 8 }}>
       <Typography variant="h4" align="center" gutterBottom>
-        Contact Us
+        Contact Form
       </Typography>
       <ContactForm />
     </Container>
